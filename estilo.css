@@ -85,7 +85,7 @@ h1 {
 }
 
 .section-2 {
-    background-image: url("/assets/parallax-imagem2.jpg");
+    background-image: url(assets/parallax-imagem2.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
