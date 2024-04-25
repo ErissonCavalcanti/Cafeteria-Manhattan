@@ -56,10 +56,10 @@ a {
 h1 {
     font-family: 'Fraunces', serif;
     position: absolute;
-    bottom: 34%;
+    bottom: 40%;
     left: 15%;
     color: #fff;
-    font-size: 73px;
+    font-size: 63px;
     text-align: center;
     font-weight: 400;
 }
@@ -147,8 +147,8 @@ iframe {
     align-items: center;
     position: relative;
     top: 90px;
-    width: 800px;
-    height: 370px;
+    width: 700px;
+    height: 300px;
     margin: auto;
 }
 
@@ -161,7 +161,7 @@ iframe {
     color: white;
     position: relative;
     width: 500px;
-    height: 40px;
+    height: 30px;
     margin: auto;
     top: 130px;
     text-shadow: 0px 6px 8px #000000
