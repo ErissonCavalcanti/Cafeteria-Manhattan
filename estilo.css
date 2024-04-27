@@ -51,6 +51,7 @@ a {
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;
+    transition: 0.5s;
 }
 
 h1 {
@@ -170,7 +171,7 @@ iframe {
 
 .horarios {
     background-image: url(assets/cafeteria.jpg);
-    height: 85vh;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -246,6 +247,7 @@ span {
     letter-spacing: 2px;
 }
 
+
 p {
     padding: 5px;
 }
@@ -265,3 +267,19 @@ p {
     background-image: url("assets/seta-para-cima.png");
     border-radius: 4px;
 }
+
+
+/*----------- Efeitos ---------*/
+
+.banner, h1 {
+    transition: 0.6s;
+  }
+  
+  section::before {
+      content: "";
+      position: absolute;
+      z-index: 0;
+      rotate: -2deg;
+      background: inherit;
+    }
+    
